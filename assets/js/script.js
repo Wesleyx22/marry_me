@@ -1,22 +1,19 @@
-const horas = document.getElementById('horas');
-const minutos = document.getElementById('minutos');
-const segundos = document.getElementById('segundos');
+var btn = document.querySelector(".no");
+var position
+btn.addEventListener("click", function() {
+position ? (position = 0) : (position = 150);
+btn.style.transform = `translate(${position}px,0px)`;
+btn.style.transition = "all 0.3s ease";
+});
 
-const relogio = setInterval(function time() {
-let dateToday = new Date();
-let hr = dateToday.getHours();
-let min = dateToday.getMinutes();
-let s = dateToday.getSeconds();
+var btn = document.querySelector(".no");
+var position
+btn.addEventListener("mouseover", function() {
+position ? (position = 0) : (position = 150);
+btn.style.transform = `translate(${position}px,0px)`;
+btn.style.transition = "all 0.3s ease";
+});
 
-if  (hr < 10) hr = '0' + hr;
-
-if (min < 10) min = '0' + min;
-
-if (s < 10) s = '0' + s;
-
-horas.textContent = hr;
-minutos.textContent = min;
-segundos.textContent = s;
-
-
-})
+function tanks() {
+alert("Escolha sábia,Anna :)");
+}    
