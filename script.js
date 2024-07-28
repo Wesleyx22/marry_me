@@ -10,7 +10,7 @@ position = btn.addEventListener("mouseover", function () {
     position ? (position = 0) : (position = 400);
     btn.style.transform = `translate(${position}px,0px)`;
     btn.style.transition = "all 0.3s ease";
-});
+});//teste
 
 function tanks() {
     alert("Escolha sábia,Babyyy :)");
