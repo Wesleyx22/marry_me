@@ -1,13 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(107, 106, 106);
+    background: rgb(197, 24, 197);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     }
     
     .yes-or-no {
